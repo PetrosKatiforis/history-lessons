@@ -77,5 +77,5 @@ description = "Ο πόλεμος που δίχασε τις ΗΠΑ σε δύο �
 
 ### Εξωτερικές Πηγές
 
-- [Ο Αμερικανικός Εμφύλιος Πόλεμος (1861 - 1865) - Ερανιστής](https://eranistis.net/wordpress/2013/03/17/%CE%BF-%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82-%CE%B5%CE%BC%CF%86%CF%8D%CE%BB%CE%B9%CE%BF%CF%82-%CF%80%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82-1861-1865/)
-- [Αμερικανικός Εμφύλιος, Βικιπαίδεια](https://el.wikipedia.org/wiki/%CE%91%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%95%CE%BC%CF%86%CF%8D%CE%BB%CE%B9%CE%BF%CF%82_%CE%A0%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82)
+1. [Ο Αμερικανικός Εμφύλιος Πόλεμος (1861 - 1865) - Ερανιστής](https://eranistis.net/wordpress/2013/03/17/%CE%BF-%CE%B1%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82-%CE%B5%CE%BC%CF%86%CF%8D%CE%BB%CE%B9%CE%BF%CF%82-%CF%80%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82-1861-1865/)
+2. [Αμερικανικός Εμφύλιος, Βικιπαίδεια](https://el.wikipedia.org/wiki/%CE%91%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%B1%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%95%CE%BC%CF%86%CF%8D%CE%BB%CE%B9%CE%BF%CF%82_%CE%A0%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82)
