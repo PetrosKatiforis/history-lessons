@@ -1,0 +1,71 @@
+.bg-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.bg-lighter {
+  background: var(--lighter);
+}
+
+.fg-primary {
+  color: var(--primary);
+}
+
+.mt {
+  margin-top: 2em;
+}
+
+.mb {
+  margin-bottom: 2em;
+}
+
+.mb-2 {
+  margin-bottom: 4em;
+}
+
+button {
+  border-radius: var(--rounded);
+  padding: 0.6em 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 1em;
+}
+
+.flex-space {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 1em;
+}
+
+.flex__text {
+  flex: 1;
+}
+
+.reversed {
+  gap: 2em;
+}
+
+@media (max-width: 800px) {
+  .flex-center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-space {
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .reversed {
+    flex-direction: column-reverse;
+  }
+}

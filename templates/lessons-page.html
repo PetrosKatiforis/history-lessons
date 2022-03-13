@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "macros/lessons.html" as macros %}
+
+{% block SEO %}
+  <title>{{ page.title }} | Μαθήματα Ιστορίας</title> 
+
+  <meta name="description" content="Περιγραφή μαθήματος: {{ page.description }}">
+{% endblock SEO %}
+
+{% block content %}
+  <div style="height: 60px" class="bg-lighter"></div>
+
+  <div id="lesson--page">
+    {% include "partials/lesson-navbar.html" %}
+      
+    <div id="lesson">
+      <h1 class="lesson__title">
+        {{ page.title }}
+      </h1>
+
+      <p class="lesson__description">
+        {{ page.description }}
+      </p>
+      
+      <span class="lesson__time">
+        Χρόνος Ανάγνωσης: {{ page.reading_time }} λεπτά
+      </span>
+
+      <div class="lesson__content">
+        {{ page.content | markdown | safe }}
+      </div>
+    </div>
+  </div>
+{% endblock content %}

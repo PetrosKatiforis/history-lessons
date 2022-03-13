@@ -1,0 +1,18 @@
+<nav class="lesson__nav">
+  <ol>
+    {% set lessons = get_section(path="lessons/_index.md") %}
+    {% for page in lessons.pages %}
+      <li>
+        <a
+          href="{{ page.permalink }}"
+
+          {% if current_path == page.path %}
+            class="fg-primary"
+          {% endif %}
+        >
+          {{ page.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ol>
+</nav>

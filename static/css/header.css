@@ -1,0 +1,64 @@
+#navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--white);
+  padding: 1.2em var(--padding-x);
+}
+
+#navigation__logo {
+  font-size: 1.2rem;
+}
+
+#navigation nav {
+  display: flex;
+  align-items: center;
+  gap: 1.4em;
+}
+
+#burger-menu {
+  display: none;
+  cursor: pointer;
+
+  transition: transform 200ms;
+}
+
+@media (max-width: 800px) {
+  #burger-menu {
+    display: block;
+    position: absolute;
+
+    right: var(--padding-x);
+    top: 1em;
+  }
+
+  #navigation {
+    flex-direction: column;
+    padding: 1em var(--padding-x);
+    align-items: start;
+  }
+
+  #navigation nav {
+    display: none;
+
+    flex-direction: column;
+    align-items: start;
+    gap: 0.7em;
+
+    margin: 2em 0 1em 0;
+  }
+
+  #navigation.active nav {
+    display: flex;
+  }
+
+  #navigation.active #burger-menu {
+    transform: rotate(180deg);
+  }
+
+  #navigation__logo {
+    font-size: 1rem;
+  }
+}
+

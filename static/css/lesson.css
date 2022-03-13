@@ -1,0 +1,81 @@
+#lesson--page {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 3em var(--padding-x);
+  margin: 0 auto;
+}
+
+.lesson__nav {
+  max-width: 200px;
+  position: sticky;
+  top: 30px;
+}
+
+.lesson__nav ol {
+  list-style: none;
+}
+
+.lesson__description {
+  margin-top: 0.6em;
+  margin-bottom: 1em;
+}
+
+.lesson__time {
+  font-size: 0.8rem;
+  padding: 0.3em 0.5em;
+  color: white;
+  background: var(--primary);
+  border-radius: var(--rounded);
+  display: inline-block;
+}
+
+.lesson__nav li {
+  margin-bottom: 0.7em;
+}
+
+.lesson__nav .active {
+  color: var(--primary);
+}
+
+#lesson {
+  max-width: 580px;
+}
+
+.lesson__content {
+  margin-top: 2em;
+}
+
+.lesson__content a {
+  color: var(--link);
+}
+
+.lesson__content h1 {
+  font-size: 1.5rem;
+  margin-top: 3em;
+}
+
+.lesson__content :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 0.8em;
+}
+
+.lesson__content p {
+  margin-bottom: 2em;
+  max-width: initial;
+}
+
+.lesson__content :is(ul, ol) {
+  margin-left: 4em;
+}
+
+@media (max-width: 800px) {
+  #lesson--page {
+    flex-direction: column;
+  }
+
+  .lesson__nav {
+    position: static; 
+  }
+}

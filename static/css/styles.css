@@ -1,0 +1,39 @@
+@import "header.css";
+@import "lesson.css";
+@import "components.css";
+@import "utils.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  --white: white;
+  --lighter: #e6e6e6;
+  --primary: #2f4b5b;
+  --link: #1342b0;
+  --border: #c8ccd1;
+
+  --rounded: 5px;
+  --padding-x: 3em;
+}
+
+p {
+  max-width: 500px;
+  line-height: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --padding-x: 2em;
+  }
+}
