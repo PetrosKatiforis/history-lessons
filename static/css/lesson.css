@@ -78,4 +78,8 @@
   .lesson__nav {
     position: static; 
   }
+
+  .lesson__content :is(ul, ol) {
+    margin-left: 2.5em;
+  }
 }
