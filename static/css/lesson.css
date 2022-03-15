@@ -33,7 +33,7 @@
 }
 
 .lesson__nav li {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.6em;
 }
 
 .lesson__nav .active {
@@ -70,6 +70,45 @@
   margin-left: 4em;
 }
 
+.lesson__content figure {
+  border: 1px solid var(--border);
+}
+
+.lesson__content figure img {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.lesson__content figcaption {
+  padding: 0 0.8em 1em;
+  font-size: 0.8rem;
+}
+
+#exoterikes-peges {
+  margin-top: 3em;
+}
+
+#image-popup {
+  display: none;
+}
+
+#image-popup.active {
+  position: fixed;
+  z-index: 99999;
+
+  top: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.9);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 800px) {
   #lesson--page {
     flex-direction: column;
@@ -77,9 +116,16 @@
 
   .lesson__nav {
     position: static; 
+    max-width: 100%;
   }
 
   .lesson__content :is(ul, ol) {
     margin-left: 2.5em;
+  }
+}
+
+@media (min-width: 1400px) {
+  #lesson {
+    max-width: 650px;
   }
 }

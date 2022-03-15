@@ -4,11 +4,11 @@
   justify-content: space-between;
 
   background: var(--white);
-  padding: 1.2em var(--padding-x);
+  padding: 1em var(--padding-x);
 }
 
 #navigation__logo {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #navigation nav {
@@ -20,8 +20,6 @@
 #burger-menu {
   display: none;
   cursor: pointer;
-
-  transition: transform 200ms;
 }
 
 @media (max-width: 800px) {
@@ -51,10 +49,6 @@
 
   #navigation.active nav {
     display: flex;
-  }
-
-  #navigation.active #burger-menu {
-    transform: rotate(180deg);
   }
 
   #navigation__logo {
